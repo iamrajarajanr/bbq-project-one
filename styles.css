@@ -1,6 +1,6 @@
 body{
     margin:0px;
-    font-family: Source Sans Pro;
+    font-family: Source Sans Pro, sans-serif;
     font-size: 1rem;
     color: #404040;
     text-align: center;
@@ -19,3 +19,6 @@ h2{
     font-size: 1.3125rem;
 }
 
+h1+p{
+    color: orange;
+}
