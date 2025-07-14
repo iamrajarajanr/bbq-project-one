@@ -1,4 +1,5 @@
 body{
+    
     margin:0px;
     font-family: Source Sans Pro, sans-serif;
     font-size: 1rem;
@@ -22,6 +23,35 @@ h2{
 h1+p{
     font-weight: 900;
     font: size 1.3125rem;
-    color: orange;
+    color:#f18119;
+    
 }
 
+h2+p{
+    color:#f18119;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+   
+}
+
+.toptext{
+    font-size:0.625rem;
+    font-weight: 900;
+    color:#f18119;
+    text-transform: uppercase;
+    
+}
+
+.fine-print{
+    font-size:0.625rem;
+    letter-spacing: 1px;
+}
+
+strong{
+    font-weight: 900;
+}
+
+.intro{
+    background-image: url(/images/dark-ribs.jpg);
+}
