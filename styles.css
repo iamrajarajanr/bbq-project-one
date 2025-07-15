@@ -1,127 +1,116 @@
-*{
+*
+{
     box-sizing: border-box;
 }
-
-body{
-    /* display: flex; */
-    margin:0px;
-    font-family: Source Sans Pro, sans-serif;
+body
+{
+    margin: 0;
+    font-family:Source Sans Pro,sans-serif;
     font-size: 1rem;
     color: #404040;
     text-align: center;
+   
 }
 
 h1{
-    font-weight: 300;
+    font-weight: lighter;
     font-size: 2.25rem;
     color: #fff;
-    margin: 2em 0;
+    /* margin: 2em 0; */
 }
-
-strong{
+strong
+{
     font-weight: 900;
 }
-
 h2{
     font-size: 1.3125rem;
-    margin: 0;
 }
 
-h1+p{
+h1 + p{
+    color: orange;
     font-weight: 900;
-    font: size 1.3125rem;
-    color:#f18119; 
+    font-size: 1.3125rem;
     margin: 0;
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
+/* h1 ~ p
+{
+    color: orange;
+    font-weight: 900;
+    font-size: 1.3125rem;
+} div kkula ulla ella p kkum apply agum*/
 
-h2+p{
-    color:#f18119;
+h2 + p{
+    color: #f18119;
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
-    margin-top: 0;
-   
+    margin: 0;
 }
 
-.top-text{
-    font-size:0.625rem;
+.top-text
+{
+    font-size: 0.625rem;
     font-weight: 900;
-    color:#f18119;
+    color: #f18119;
     text-transform: uppercase;
     order: -1;
-    
 }
-
-.fine-print{
-    font-size:0.625rem;
+.fine-print
+{
+    font-size: 0.625rem;
     letter-spacing: 1px;
 }
-
-strong{
-    font-weight: 900;
-}
-
-.intro{
-   
+.intro
+{
+    background-image: url("./images/dark-ribs.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #404040;
+    padding: 0 0.25em 2em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/images/dark-ribs.jpg);
-    background-position: center;
-    background-color: #404040;
-    background-repeat: none;
-    background-size: cover;
-    padding: 0 0.25em 2em;
     min-height: 50vh;
+    order: 0;
 }
+/* .intro > strong
+{
+    color: red;
+} */
+.main-content
+{
+    padding-top: 2em 1em;
+}
+
+/* .intro > * {
+    color: purple;
+} */
 
 .intro,.main-content{
-    width: 50%;
-    min-height: 100vh;
+    width: 400px;
+    margin: 0 auto;
 }
-
-.main-content{
-    width: 50%;
-    padding: 2em 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-
-}
-
-
-@media(min-width:500px){
-    body{
+@media(min-width:500px)
+{
+    body {
+        font-size: 1.125rem;
         display: flex;
-       
-    
-   
-    
-
-    font-size: 1.125rem;
     }
-
     h1{
-        font-size: 3.5rem;
+       font-size: 3.5rem;
     }
-
-    h2{
-        font-size: 1.5rem;
-
+    h2,h1 + p
+    {
+      font-size: 1.5rem;
     }
-
-    h1+p{
-        font-size: 1.5rem;
+    .intro,.main-content{
+        width: 50%;
+        height: 100vh;
     }
-
-    
-
-    /* .main-content{
+    .main-content{
         display: flex;
         flex-direction: column;
-    } */
+        justify-content: center;
+    }
 }
-
-
