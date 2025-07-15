@@ -123,6 +123,9 @@ input{
     
 }
 
+.btn{
+    text-transform: uppercase;
+}
 
 
 @media(min-width:500px){
