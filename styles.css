@@ -97,6 +97,11 @@ h2 + p{
   
 }
 
+.main-body{
+    margin-top: 0.75em;
+    margin-bottom: ;
+}
+
 
 .intro > *,.main-content > *{
 
@@ -112,13 +117,13 @@ h2 + p{
 input, .btn{
     width: 100%;
     border-radius: 5px;
-    padding: .25em;
     margin-bottom: 0.75em;
     
 }
 
 input{
     transition: all 500ms;
+    padding: .25em;
     transform:scale(1);
     text-align: inherit;
     font-family: inherit;
@@ -137,6 +142,7 @@ input:focus{
     letter-spacing: 1px;
     border: none;
     cursor:pointer;
+
 }
 
 .btn-primary{
