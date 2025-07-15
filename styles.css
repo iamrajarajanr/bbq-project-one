@@ -1,116 +1,138 @@
-*
-{
+*{
+
     box-sizing: border-box;
 }
-body
-{
+
+
+body{
+
     margin: 0;
-    font-family:Source Sans Pro,sans-serif;
+    font-family: 'Source Sans Pro';
     font-size: 1rem;
     color: #404040;
     text-align: center;
-   
+    
+    
 }
 
 h1{
-    font-weight: lighter;
+
+    font-weight: 300;
     font-size: 2.25rem;
     color: #fff;
     /* margin: 2em 0; */
+    margin: 0;
+   
 }
-strong
-{
+
+strong{
+
     font-weight: 900;
 }
+
 h2{
+
     font-size: 1.3125rem;
+    margin: 0;
+    
 }
 
 h1 + p{
-    color: orange;
+
+    color: #f18119;
     font-weight: 900;
     font-size: 1.3125rem;
     margin: 0;
     text-transform: uppercase;
+
 }
-/* h1 ~ p
-{
-    color: orange;
-    font-weight: 900;
-    font-size: 1.3125rem;
-} div kkula ulla ella p kkum apply agum*/
 
 h2 + p{
+
     color: #f18119;
     font-weight: 900;
     font-size: 1rem;
     text-transform: uppercase;
-    margin: 0;
+    margin-top: 0;
 }
 
-.top-text
-{
+.top-text{
+
     font-size: 0.625rem;
     font-weight: 900;
     color: #f18119;
     text-transform: uppercase;
     order: -1;
+   
 }
-.fine-print
-{
-    font-size: 0.625rem;
+
+.fine-print{
+
     letter-spacing: 1px;
+    font-size: 0.625rem;
 }
-.intro
-{
-    background-image: url("./images/dark-ribs.jpg");
-    background-position: center;
+
+.intro{
+
+    background-image: url("/images/dark-ribs.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-color: #404040;
     padding: 0 0.25em 2em;
+    margin-top: 0;
+    background-color: #404040;
     display: flex;
     flex-direction: column;
+    background-position: center;
     justify-content: space-between;
     min-height: 50vh;
-    order: 0;
-}
-/* .intro > strong
-{
-    color: red;
-} */
-.main-content
-{
-    padding-top: 2em 1em;
+
+   
+    
 }
 
-/* .intro > * {
-    color: purple;
-} */
+.main-content{
 
-.intro,.main-content{
-    width: 400px;
+    padding: 2em 1em;
+    
+
+    
+}
+
+.intro > *,.main-content > *{
+
+    max-width: 400px;
     margin: 0 auto;
 }
-@media(min-width:500px)
-{
-    body {
+
+
+
+@media(min-width:500px){
+
+    body{
+       display: flex;
         font-size: 1.125rem;
-        display: flex;
     }
     h1{
-       font-size: 3.5rem;
+        font-size: 3.5rem;
     }
-    h2,h1 + p
-    {
-      font-size: 1.5rem;
+    h2{
+
+        font-size: 1.5rem;
+    }
+    h1 + p{
+
+        font-size: 1.5rem;
     }
     .intro,.main-content{
+
         width: 50%;
-        height: 100vh;
+        min-height: 100vh;
     }
     .main-content{
+
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
 }
