@@ -93,15 +93,23 @@ h2 + p{
 .main-content{
 
     padding: 2em 1em;
-    
-
-    
+  
 }
+
 
 .intro > *,.main-content > *{
 
     max-width: 400px;
     margin: 0 auto;
+}
+
+.email-collector{
+    width: 80%;
+    max-width: 300px;
+}
+
+input, button{
+    width: 100%;
 }
 
 
