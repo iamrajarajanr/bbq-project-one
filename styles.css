@@ -142,6 +142,7 @@ input:focus{
     letter-spacing: 1px;
     border: none;
     cursor:pointer;
+    padding: 0.8em;
 
 }
 
