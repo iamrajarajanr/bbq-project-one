@@ -112,13 +112,14 @@ input, .btn{
     width: 100%;
     border-radius: 5px;
     padding: .25em;
+    margin-bottom: 0.75em;
     
 }
 
 input{
     
     text-align: inherit;
-    margin-bottom: 0.75em;
+    
     font-family: inherit;
     
 }
@@ -132,6 +133,21 @@ input{
     border: none;
     cursor:pointer;
 }
+
+.btn-primary{
+    background: linear-gradient(to left, #ff713b, #ffa51d);
+    color: #fff;
+    transition: all 500ms;
+    transform: scale(1);
+}
+
+
+.btn-primary:hover{
+    background: linear-gradient(to right, #ff713b, #ffa51d);
+    color: black;
+    transform: scale(1.1);
+}
+
 
 
 @media(min-width:500px){
