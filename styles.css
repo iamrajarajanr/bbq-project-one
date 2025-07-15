@@ -116,7 +116,7 @@ input, .btn{
 
 input{
     
-    text-align: center;
+    text-align: inherit;
     margin-bottom: 0.75em;
     font-family: inherit;
 }
