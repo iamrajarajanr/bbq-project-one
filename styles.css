@@ -117,11 +117,15 @@ input, .btn{
 }
 
 input{
-    
+    transition: all 500ms;
+    transform:scale(1);
     text-align: inherit;
-    
     font-family: inherit;
     
+}
+
+input:focus{
+    transform: scale(1.1);
 }
 
 .btn{
@@ -142,7 +146,7 @@ input{
 }
 
 
-.btn-primary:hover{
+.btn-primary:hover, .btn-primary:focus{
     background: linear-gradient(to right, #ff713b, #ffa51d);
     color: black;
     transform: scale(1.1);
