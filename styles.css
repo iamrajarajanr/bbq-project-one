@@ -27,7 +27,7 @@ h1{
 
 strong{
 
-    font-weight: 900;
+    font-weight: 400;
 }
 
 h2{
@@ -77,7 +77,9 @@ h2 + p{
 
 .intro{
 
-    background-image: url("/images/dark-ribs.jpg");
+    background-image: url("/images/ribs.jpg");
+    background-blend-mode: overlay;
+
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 0.25em 2em;
@@ -97,10 +99,7 @@ h2 + p{
   
 }
 
-.main-body{
-    margin-top: 0.75em;
-    margin-bottom: ;
-}
+
 
 
 .intro > *,.main-content > *{
@@ -190,5 +189,14 @@ input:focus{
         flex-direction: column;
         justify-content: center;
     }
+
+   
+
+}
+
+ .main-body{
+    
+    margin-top: 0.7em;
+    margin-bottom: 0.8em;
 
 }
