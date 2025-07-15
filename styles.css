@@ -124,7 +124,13 @@ input{
 }
 
 .btn{
+    
     text-transform: uppercase;
+    font-size: 0.652rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border: none;
+    cursor:pointer;
 }
 
 
