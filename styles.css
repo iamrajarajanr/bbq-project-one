@@ -63,9 +63,9 @@ h2 + p{
     color: #f18119;
     text-transform: uppercase;
     order: -1;
-    border-top: 5px solid #f18199;
+    border-top: 5px solid #f18119;
     padding-top: 2px;
-    background-image: linear-gradient(to right, #ff173b, #ffa51d) 1;
+    border-image: linear-gradient(to right, #ff713b, #ffa51d) 1;
    
 }
 
